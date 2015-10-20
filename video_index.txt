@@ -1,0 +1,4 @@
+# Each line consists of:
+# filename start_time duration_in_seconds
+videos/CK03-P1.mov 00:02:40.0 12
+videos/CK03-P1.mov 00:05:40.0 25
