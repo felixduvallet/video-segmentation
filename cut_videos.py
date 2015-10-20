@@ -9,7 +9,7 @@ def get_extension(filepath):
     return ext
 
 
-def cut_one(filepath, number, start_time, duration):
+def extract_segment(filepath, number, start_time, duration):
     # Extract a segment from a single video file, using the given start time
     # and duration. The number is to create a unique output filename.
 
@@ -34,12 +34,12 @@ def cut_one(filepath, number, start_time, duration):
 
     try:
         subprocess.check_call(command.split())  # Must split all the arguments.
-    except subprocess.CalledProcessError as e:
-        print('Exception caught: {}'.format(e))
+    except subprocess.CalledProcessError as exp:
+        print('Exception caught: {}'.format(exp))
     return
 
 
-def cut(index_file):
+def extract_all(index_file):
 
     data = np.genfromtxt(index_file, dtype=None, comments='#',
                          names=('filepath', 'start_time', 'duration'))
@@ -51,9 +51,9 @@ def cut(index_file):
         number = file_counts[filepath]
         file_counts[filepath] += 1
 
-        cut_one(filepath, number, start_time, duration)
+        extract_segment(filepath, number, start_time, duration)
     return
 
 
 if __name__ == '__main__':
-    cut('files_to_cut.txt')
+    extract_all('files_to_cut.txt')
