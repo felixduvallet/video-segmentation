@@ -40,6 +40,7 @@ def extract_segment(filepath, number, start_time, duration):
 
 
 def extract_all(index_file):
+    # Load the index file and extract all the desired video segments.
 
     data = np.genfromtxt(index_file, dtype=None, comments='#',
                          names=('filepath', 'start_time', 'duration'))
