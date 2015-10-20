@@ -56,4 +56,4 @@ def extract_all(index_file):
 
 
 if __name__ == '__main__':
-    extract_all('files_to_cut.txt')
+    extract_all('video_index.txt')
