@@ -18,3 +18,13 @@ videos/CK20-P2.mov 00:16:09 4
 videos/CK20-P2.mov 00:16:12 5
 videos/CK20-P2.mov 00:16:35 5
 videos/CK20-P2.mov 00:16:51.5 5
+# CK03-P1
+videos/CK03-P1.mov 00:00:28 5
+videos/CK03-P1.mov 00:07:19 5
+videos/CK03-P1.mov 00:09:53 5
+videos/CK03-P1.mov 00:10:19 4
+videos/CK03-P1.mov 00:12:15 5
+videos/CK03-P1.mov 00:14:24 5
+videos/CK03-P1.mov 00:15:58 5
+videos/CK03-P1.mov 00:24:30.5 11
+videos/CK03-P1.mov 00:24:56.5 5
