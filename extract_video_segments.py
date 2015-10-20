@@ -44,11 +44,11 @@ def extract_all(index_file):
 
     data = np.genfromtxt(index_file, dtype=None, comments='#',
                          names=('filepath', 'start_time', 'duration'))
-
     # Keeps track of how many times each file was cut.
     file_counts = defaultdict(int)
 
-    for (filepath, start_time, duration) in data:
+    # Use ndenumerate to prevent problem if data only has a single element.
+    for (_, (filepath, start_time, duration)) in np.ndenumerate(data):
         number = file_counts[filepath]
         file_counts[filepath] += 1
 
