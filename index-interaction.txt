@@ -1,0 +1,12 @@
+# NOTE: not necessarily verified.
+# Each line consists of:
+# filename start_time duration_in_seconds
+#
+# CK20-P1
+videos/CK20-P1.mov 00:10:44 55
+videos/CK20-P1.mov 00:11:50 15
+videos/CK20-P1.mov 00:23:23 40
+# CK20-P2
+videos/CK20-P2.mov 00:01:10 100
+videos/CK20-P2.mov 00:11:10 30
+videos/CK20-P2.mov 00:17:48 85
