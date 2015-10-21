@@ -19,3 +19,8 @@ videos/CK03-P1.mov 00:10:57 45
 videos/CK03-P1.mov 00:13:35 12
 videos/CK03-P1.mov 00:20:07 100
 videos/CK03-P1.mov 00:25:59 90
+# CK03-P2
+videos/CK03-P2.mov 00:00:04 80
+videos/CK03-P2.mov 00:07:20 52
+videos/CK03-P2.mov 00:10:10 133
+videos/CK03-P2.mov 00:13:57 5

@@ -28,3 +28,14 @@ videos/CK03-P1.mov 00:14:24 5
 videos/CK03-P1.mov 00:15:58 5
 videos/CK03-P1.mov 00:24:30.5 11
 videos/CK03-P1.mov 00:24:56.5 5
+# CK03-P2
+videos/CK03-P2.mov 00:03:14 5
+videos/CK03-P2.mov 00:03:54 5
+videos/CK03-P2.mov 00:04:04 5
+videos/CK03-P2.mov 00:04:10 7
+videos/CK03-P2.mov 00:04:20 5
+videos/CK03-P2.mov 00:05:20 5
+videos/CK03-P2.mov 00:05:29 5
+videos/CK03-P2.mov 00:06:23 8
+videos/CK03-P2.mov 00:16:41 5
+videos/CK03-P2.mov 00:18:11 5
