@@ -1,12 +1,5 @@
-from collections import defaultdict
-import argparse
-import numpy as np
-import os
-import subprocess
-import sys
-
 """
-Extract video snippets from videos programmatically.
+Extracts video snippets from videos programmatically.
 
 In an index file (see video_index.txt), specify the source video file,
 the start time (expressed in 00:00:00.0 notation), and the duration in
@@ -21,15 +14,26 @@ Comments and improvements welcome.
 
 """
 
+from collections import defaultdict
+import argparse
+import numpy as np
+import os
+import subprocess
+import sys
+
+
 def get_extension(filepath):
-    # Extract the file extension from a full path.
+    """ Extract the file extension from a full path. """
     (_, ext) = os.path.splitext(filepath)
     return ext
 
 
 def extract_segment(filepath, number, start_time, duration):
-    # Extract a segment from a single video file, using the given start time
-    # and duration. The number is to create a unique output filename.
+    """ Extract a segment from a single video file
+
+    Use the given start time and duration. The number is to create a
+    unique output filename.
+    """
 
     if not os.path.isfile(filepath):
         print('File {} does not exist, returning now instead of causing '
@@ -58,7 +62,7 @@ def extract_segment(filepath, number, start_time, duration):
 
 
 def extract_all(index_file):
-    # Load the index file and extract all the desired video segments.
+    """ Load the index file and extract all the desired video segments. """
 
     if not os.path.isfile(index_file):
         print('Index {} does not exist, cannot proceed.'.format(index_file))
