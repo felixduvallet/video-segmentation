@@ -43,14 +43,13 @@ def extract_segment(filepath, number, start_time, duration):
     extension = get_extension(filepath)
 
     filepath_no_ext = str.replace(filepath, extension, '')
-    output_file = '{}-cut.{:02}{}'.format(filepath_no_ext, number, extension)
+    output_file = '{}.wmv'.format(filepath_no_ext)
 
-    print('Cutting video: {}, starting at {} for {}s \t -> {}'.format(
+    print('Converting video: {}, starting at {} for {}s \t -> {}'.format(
         filepath, start_time, duration, output_file))
 
-    command = 'ffmpeg -i {input} -ss {start} -c copy -t {duration} {output}'.\
-        format(input=filepath, start=start_time,
-               duration=duration, output=output_file)
+    command = 'avconv -i {input} -qscale 2 -vcodec msmpeg4 -an {output}'.\
+        format(input=filepath, output=output_file)
 
     print('  Running command {}'.format(command))
 
@@ -86,7 +85,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
         description='')
-    parser.add_argument('--index', default='video_index.txt',
+    parser.add_argument('--index', default='index-handovers.txt',
         help='Index file name (default=video_index.txt)')
     args = parser.parse_args(sys.argv[1:])
     index_filepath = args.index

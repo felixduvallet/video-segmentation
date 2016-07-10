@@ -2,54 +2,9 @@
 # filename start_time duration_in_seconds
 #
 # CK20-P1
-videos/CK20-P1.mov 00:00:18 4
-videos/CK20-P1.mov 00:00:54 5
-videos/CK20-P1.mov 00:05:00 6
-videos/CK20-P1.mov 00:20:20 20
-videos/CK20-P1.mov 00:20:43 20
-videos/CK20-P1.mov 00:25:23 7
-# CK20-P2
-videos/CK20-P2.mov 00:00:12 8
-videos/CK20-P2.mov 00:03:04 5
-videos/CK20-P2.mov 00:11:12 5
-videos/CK20-P2.mov 00:11:35 5
-videos/CK20-P2.mov 00:15:17 6
-videos/CK20-P2.mov 00:16:09 4
-videos/CK20-P2.mov 00:16:12 5
-videos/CK20-P2.mov 00:16:35 5
-videos/CK20-P2.mov 00:16:51.5 5
-# CK03-P1
-videos/CK03-P1.mov 00:00:28 5
-videos/CK03-P1.mov 00:07:19 5
-videos/CK03-P1.mov 00:09:53 5
-videos/CK03-P1.mov 00:10:19 4
-videos/CK03-P1.mov 00:12:15 5
-videos/CK03-P1.mov 00:14:24 5
-videos/CK03-P1.mov 00:15:58 5
-videos/CK03-P1.mov 00:24:30.5 11
-videos/CK03-P1.mov 00:24:56.5 5
-# CK03-P2
-videos/CK03-P2.mov 00:03:14 5
-videos/CK03-P2.mov 00:03:54 5
-videos/CK03-P2.mov 00:04:04 5
-videos/CK03-P2.mov 00:04:10 7
-videos/CK03-P2.mov 00:04:20 5
-videos/CK03-P2.mov 00:05:20 5
-videos/CK03-P2.mov 00:05:29 5
-videos/CK03-P2.mov 00:06:23 8
-videos/CK03-P2.mov 00:16:41 5
-videos/CK03-P2.mov 00:18:11 5
-# CK11-P1
-videos/CK11-P1.mov 00:00:37.5 5
-videos/CK11-P1.mov 00:00:49 5
-videos/CK11-P1.mov 00:06:40 12
-videos/CK11-P1.mov 00:07:32 5
-videos/CK11-P1.mov 00:28:10 7
-videos/CK11-P1.mov 00:28:56 7
-# CK11-P2
-videos/CK11-P2.mov 00:00:14 5
-videos/CK11-P2.mov 00:00:52 5
-videos/CK11-P2.mov 00:01:16 5
-videos/CK11-P2.mov 00:02:22 5
-videos/CK11-P2.mov 00:11:17 5
-videos/CK11-P2.mov 00:11:49 5
+videos/armarXsim.mov 0 0
+videos/handovers-full.mp4 0 0
+videos/handovers-no.arm.motion.mp4 0 0
+videos/handovers_forces_accel.mp4 0 0
+videos/CK20-P2-cut.00-trim.mov 0 0
+videos/armar3-rotated.mov 0 0
